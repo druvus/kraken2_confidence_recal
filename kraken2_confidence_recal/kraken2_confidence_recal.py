@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
+__version__     = "0.1.0"
+
 import argparse
-import taxonomy
+import kraken2_confidence_recal.taxonomy
 import operator
 import logging
 import sys
